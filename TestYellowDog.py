@@ -396,6 +396,4 @@ if __name__ == "__main__":
      test.test_fetch_by_id_all(ex_response = 200, http_address = "contacts", timeout = 0.2, )
      test.test_delete(ex_response=200, http_address="contacts", timeout=0.2, id_number='6015fe67b6cc125f02a29f99')
      test.Kill()
-     #PUT request does't work in normal or threading implementation
-     #test.test_update(ex_response=200, http_address="contacts", timeout=0.2, id_number='6015fd89b6cc125f02a29f97')
-
+     
