@@ -40,7 +40,7 @@ class TestYellowDog(TestCase):
         """
         ACCOUNT = {
                    'nonesecure': 'http://localhost:8080/api',
-                   'secure': 'https://localhost:8080/api'
+                   'secure': 'https://localhost/api'
                   }
         self.BASE_URL = ACCOUNT[self.acc_type.lower()]
         self.rest_yellowdog = YellowDogRestApi(
